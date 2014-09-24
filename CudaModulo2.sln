@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ray_tracing_const", "Ray_tr
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Heat1D", "Heat1D\Heat1D.vcxproj", "{C84D1CEE-A805-4488-AD38-0C3C63C16ABE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Heat2D", "Heat2D\Heat2D.vcxproj", "{3CF55210-343A-4BD1-92CA-A4A8681C6497}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -61,6 +63,14 @@ Global
 		{C84D1CEE-A805-4488-AD38-0C3C63C16ABE}.Release|Win32.Build.0 = Release|Win32
 		{C84D1CEE-A805-4488-AD38-0C3C63C16ABE}.Release|x64.ActiveCfg = Release|x64
 		{C84D1CEE-A805-4488-AD38-0C3C63C16ABE}.Release|x64.Build.0 = Release|x64
+		{3CF55210-343A-4BD1-92CA-A4A8681C6497}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3CF55210-343A-4BD1-92CA-A4A8681C6497}.Debug|Win32.Build.0 = Debug|Win32
+		{3CF55210-343A-4BD1-92CA-A4A8681C6497}.Debug|x64.ActiveCfg = Debug|x64
+		{3CF55210-343A-4BD1-92CA-A4A8681C6497}.Debug|x64.Build.0 = Debug|x64
+		{3CF55210-343A-4BD1-92CA-A4A8681C6497}.Release|Win32.ActiveCfg = Release|Win32
+		{3CF55210-343A-4BD1-92CA-A4A8681C6497}.Release|Win32.Build.0 = Release|Win32
+		{3CF55210-343A-4BD1-92CA-A4A8681C6497}.Release|x64.ActiveCfg = Release|x64
+		{3CF55210-343A-4BD1-92CA-A4A8681C6497}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
