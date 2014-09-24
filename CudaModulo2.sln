@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ray_Tracing", "Ray_Tracing\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ray_tracing_const", "Ray_tracing_const\Ray_tracing_const.vcxproj", "{82B7791A-45EA-4480-8AAB-563B0EEF9264}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Heat1D", "Heat1D\Heat1D.vcxproj", "{C84D1CEE-A805-4488-AD38-0C3C63C16ABE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -51,6 +53,14 @@ Global
 		{82B7791A-45EA-4480-8AAB-563B0EEF9264}.Release|Win32.Build.0 = Release|Win32
 		{82B7791A-45EA-4480-8AAB-563B0EEF9264}.Release|x64.ActiveCfg = Release|x64
 		{82B7791A-45EA-4480-8AAB-563B0EEF9264}.Release|x64.Build.0 = Release|x64
+		{C84D1CEE-A805-4488-AD38-0C3C63C16ABE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C84D1CEE-A805-4488-AD38-0C3C63C16ABE}.Debug|Win32.Build.0 = Debug|Win32
+		{C84D1CEE-A805-4488-AD38-0C3C63C16ABE}.Debug|x64.ActiveCfg = Debug|x64
+		{C84D1CEE-A805-4488-AD38-0C3C63C16ABE}.Debug|x64.Build.0 = Debug|x64
+		{C84D1CEE-A805-4488-AD38-0C3C63C16ABE}.Release|Win32.ActiveCfg = Release|Win32
+		{C84D1CEE-A805-4488-AD38-0C3C63C16ABE}.Release|Win32.Build.0 = Release|Win32
+		{C84D1CEE-A805-4488-AD38-0C3C63C16ABE}.Release|x64.ActiveCfg = Release|x64
+		{C84D1CEE-A805-4488-AD38-0C3C63C16ABE}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
