@@ -33,10 +33,16 @@ MatrixMulDevice(float *Md, float *Nd, float *Pd, const int width)
 // main routine
 int main()
 {
-	const int WIDTH = 128;
-	float array1_h[WIDTH*WIDTH], array2_h[WIDTH*WIDTH],
-		result_array_h[WIDTH*WIDTH], M_result_array_h[WIDTH*WIDTH];
+	const int WIDTH = 256;
+	//float array1_h[WIDTH*WIDTH], array2_h[WIDTH*WIDTH],
+	//	result_array_h[WIDTH*WIDTH], M_result_array_h[WIDTH*WIDTH];
+	//float *array1_h, *array3_h, *result_array_h, *M_result_array_h;
 	float *array1_d, *array2_d, *M_result_array_d; // device array
+
+	float* array1_h = (float *) malloc(WIDTH*WIDTH*sizeof(float));
+	float* array2_h = (float *)malloc(WIDTH*WIDTH*sizeof(float));
+	float* result_array_h = (float *) malloc(WIDTH*WIDTH*sizeof(float));
+	float* M_result_array_h = (float *) malloc(WIDTH*WIDTH*sizeof(float));
 
 	float gpu_processing = 0;
 
@@ -102,6 +108,11 @@ int main()
 	CUDA_CHECK_RETURN(cudaFree(array1_d));
 	CUDA_CHECK_RETURN(cudaFree(array2_d));
 	CUDA_CHECK_RETURN(cudaFree(M_result_array_d));
+
+	free(array1_h);
+	free(array2_h);
+	free(result_array_h);
+	free(M_result_array_h);
 
 	return 0;
 }

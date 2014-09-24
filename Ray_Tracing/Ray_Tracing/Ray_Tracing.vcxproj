@@ -18,9 +18,22 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="book.h" />
+    <ClInclude Include="CImg.h" />
+    <ClInclude Include="cpu_anim.h" />
+    <ClInclude Include="cpu_bitmap.h" />
+    <ClInclude Include="glext.h" />
+    <ClInclude Include="glut.h" />
+    <ClInclude Include="gl_helper.h" />
+    <ClInclude Include="util.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="main.cu" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{7C6E42E8-9FCD-4341-A2E6-CD185462C1F4}</ProjectGuid>
-    <RootNamespace>MatGPUCPU</RootNamespace>
+    <ProjectGuid>{80BC5375-E14A-4D33-8869-DCCBBDA16229}</ProjectGuid>
+    <RootNamespace>Ray_Tracing</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -87,9 +100,6 @@
       <Command>echo copy "$(CudaToolkitBinDir)\cudart*.dll" "$(OutDir)"
 copy "$(CudaToolkitBinDir)\cudart*.dll" "$(OutDir)"</Command>
     </PostBuildEvent>
-    <CudaCompile>
-      <Include>C:\Users\aluno\Documents\visual studio 2013\Projects\CudaModulo2\common;%(Include)</Include>
-    </CudaCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -153,24 +163,6 @@ copy "$(CudaToolkitBinDir)\cudart*.dll" "$(OutDir)"</Command>
       <TargetMachinePlatform>64</TargetMachinePlatform>
     </CudaCompile>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <CudaCompile Include="kernel.cu" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="F:\Ray_Tracing\Ray_Tracing\book.h" />
-    <ClInclude Include="F:\Ray_Tracing\Ray_Tracing\CImg.h" />
-    <ClInclude Include="F:\Ray_Tracing\Ray_Tracing\cpu_anim.h" />
-    <ClInclude Include="F:\Ray_Tracing\Ray_Tracing\cpu_bitmap.h" />
-    <ClInclude Include="F:\Ray_Tracing\Ray_Tracing\glext.h" />
-    <ClInclude Include="F:\Ray_Tracing\Ray_Tracing\glut.h" />
-    <ClInclude Include="F:\Ray_Tracing\Ray_Tracing\GL\glew.h" />
-    <ClInclude Include="F:\Ray_Tracing\Ray_Tracing\GL\glext.h" />
-    <ClInclude Include="F:\Ray_Tracing\Ray_Tracing\GL\glut.h" />
-    <ClInclude Include="F:\Ray_Tracing\Ray_Tracing\GL\glxew.h" />
-    <ClInclude Include="F:\Ray_Tracing\Ray_Tracing\GL\wglew.h" />
-    <ClInclude Include="F:\Ray_Tracing\Ray_Tracing\gl_helper.h" />
-    <ClInclude Include="F:\Ray_Tracing\Ray_Tracing\util.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
     <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 6.5.targets" />
