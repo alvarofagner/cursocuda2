@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Heat2D", "Heat2D\Heat2D.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImgBlur", "ImgBlur\ImgBlur.vcxproj", "{86E4C8EE-839D-4054-B19A-93004FA55F06}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImageRot", "ImageRot\ImageRot.vcxproj", "{0D91E938-A7B3-43F2-8B96-6217D58CE605}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -81,6 +83,14 @@ Global
 		{86E4C8EE-839D-4054-B19A-93004FA55F06}.Release|Win32.Build.0 = Release|Win32
 		{86E4C8EE-839D-4054-B19A-93004FA55F06}.Release|x64.ActiveCfg = Release|x64
 		{86E4C8EE-839D-4054-B19A-93004FA55F06}.Release|x64.Build.0 = Release|x64
+		{0D91E938-A7B3-43F2-8B96-6217D58CE605}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0D91E938-A7B3-43F2-8B96-6217D58CE605}.Debug|Win32.Build.0 = Debug|Win32
+		{0D91E938-A7B3-43F2-8B96-6217D58CE605}.Debug|x64.ActiveCfg = Debug|x64
+		{0D91E938-A7B3-43F2-8B96-6217D58CE605}.Debug|x64.Build.0 = Debug|x64
+		{0D91E938-A7B3-43F2-8B96-6217D58CE605}.Release|Win32.ActiveCfg = Release|Win32
+		{0D91E938-A7B3-43F2-8B96-6217D58CE605}.Release|Win32.Build.0 = Release|Win32
+		{0D91E938-A7B3-43F2-8B96-6217D58CE605}.Release|x64.ActiveCfg = Release|x64
+		{0D91E938-A7B3-43F2-8B96-6217D58CE605}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
