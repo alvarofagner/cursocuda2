@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImgBlur", "ImgBlur\ImgBlur.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImageRot", "ImageRot\ImageRot.vcxproj", "{0D91E938-A7B3-43F2-8B96-6217D58CE605}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StreamDoubleCorrect", "StreamDoubleCorrect\StreamDoubleCorrect.vcxproj", "{AA05613B-7046-4B18-895D-3D9B49226CA9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -91,6 +93,14 @@ Global
 		{0D91E938-A7B3-43F2-8B96-6217D58CE605}.Release|Win32.Build.0 = Release|Win32
 		{0D91E938-A7B3-43F2-8B96-6217D58CE605}.Release|x64.ActiveCfg = Release|x64
 		{0D91E938-A7B3-43F2-8B96-6217D58CE605}.Release|x64.Build.0 = Release|x64
+		{AA05613B-7046-4B18-895D-3D9B49226CA9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AA05613B-7046-4B18-895D-3D9B49226CA9}.Debug|Win32.Build.0 = Debug|Win32
+		{AA05613B-7046-4B18-895D-3D9B49226CA9}.Debug|x64.ActiveCfg = Debug|x64
+		{AA05613B-7046-4B18-895D-3D9B49226CA9}.Debug|x64.Build.0 = Debug|x64
+		{AA05613B-7046-4B18-895D-3D9B49226CA9}.Release|Win32.ActiveCfg = Release|Win32
+		{AA05613B-7046-4B18-895D-3D9B49226CA9}.Release|Win32.Build.0 = Release|Win32
+		{AA05613B-7046-4B18-895D-3D9B49226CA9}.Release|x64.ActiveCfg = Release|x64
+		{AA05613B-7046-4B18-895D-3D9B49226CA9}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
