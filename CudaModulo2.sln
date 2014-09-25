@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImageRot", "ImageRot\ImageR
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StreamDoubleCorrect", "StreamDoubleCorrect\StreamDoubleCorrect.vcxproj", "{AA05613B-7046-4B18-895D-3D9B49226CA9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnifiedMemory2", "UnifiedMemory2\UnifiedMemory2.vcxproj", "{09C7184F-D4F8-421D-9FA4-1E0E4E5652F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -101,6 +103,14 @@ Global
 		{AA05613B-7046-4B18-895D-3D9B49226CA9}.Release|Win32.Build.0 = Release|Win32
 		{AA05613B-7046-4B18-895D-3D9B49226CA9}.Release|x64.ActiveCfg = Release|x64
 		{AA05613B-7046-4B18-895D-3D9B49226CA9}.Release|x64.Build.0 = Release|x64
+		{09C7184F-D4F8-421D-9FA4-1E0E4E5652F8}.Debug|Win32.ActiveCfg = Debug|x64
+		{09C7184F-D4F8-421D-9FA4-1E0E4E5652F8}.Debug|Win32.Build.0 = Debug|x64
+		{09C7184F-D4F8-421D-9FA4-1E0E4E5652F8}.Debug|x64.ActiveCfg = Debug|x64
+		{09C7184F-D4F8-421D-9FA4-1E0E4E5652F8}.Debug|x64.Build.0 = Debug|x64
+		{09C7184F-D4F8-421D-9FA4-1E0E4E5652F8}.Release|Win32.ActiveCfg = Release|Win32
+		{09C7184F-D4F8-421D-9FA4-1E0E4E5652F8}.Release|Win32.Build.0 = Release|Win32
+		{09C7184F-D4F8-421D-9FA4-1E0E4E5652F8}.Release|x64.ActiveCfg = Release|x64
+		{09C7184F-D4F8-421D-9FA4-1E0E4E5652F8}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
